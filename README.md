@@ -1,4 +1,4 @@
-# Cambridge Dictionary Using Easily
+# Cambridge Dictionary Helper
 The project is a Google Chrome Extension for using [Cambridge Dictionary](https://dictionary.cambridge.org/) easily when you search some vocabulary.
 
 ## Installation
