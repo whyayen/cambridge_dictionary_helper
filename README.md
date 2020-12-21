@@ -1,7 +1,7 @@
 # Cambridge Dictionary Using Easily
 The project is a Google Chrome Extension for using Cambridge Dictionary easily when you search some vocabulary.
 
-## Install
+## Installation
 1. Clone repository.
 2. Import repository folder into Chrome Extension.
 
