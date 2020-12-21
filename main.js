@@ -8,19 +8,18 @@ document.addEventListener('keyup', moveAutocompleteItems);
 const languageButton = document.querySelector('button[title="Choose a dictionary"]');
 const currentLanguage = languageButton.firstElementChild.firstElementChild.innerText;
 
-const ampScript = document.createElement("script");
-ampScript.innerHTML = `window.AMP.setState(
-  {
-    stateSearch: {
-      dataset: 'english-chinese-traditional',
-      dataset_text: 'English–Chinese (Traditional)',
-      dataset_search: 'Search English–Chinese (Traditional)',
-      isbilang: false
-    }
-  }
-)`
-
 if (currentLanguage !== 'English–Chinese (Traditional)') {
+  const ampScript = document.createElement("script");
+  ampScript.innerHTML = `window.AMP.setState(
+    {
+      stateSearch: {
+        dataset: 'english-chinese-traditional',
+        dataset_text: 'English–Chinese (Traditional)',
+        dataset_search: 'Search English–Chinese (Traditional)',
+        isbilang: false
+      }
+    }
+  )`
   document.head.appendChild(ampScript);
 }
 
