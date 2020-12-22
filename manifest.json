@@ -1,5 +1,6 @@
 {
   "name": "Cambridge Dictionary Better",
+  "description": "Using Cambridge Dictionary easily when you search some vocabulary.",
   "version": "0.0.1",
   "manifest_version": 2,
   "content_scripts": [
