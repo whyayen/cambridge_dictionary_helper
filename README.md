@@ -2,8 +2,7 @@
 The project is a Google Chrome Extension for using [Cambridge Dictionary](https://dictionary.cambridge.org/) easily when you search some vocabulary.
 
 ## Installation
-1. Clone repository.
-2. Import repository folder into Chrome Extension.
+https://chrome.google.com/webstore/detail/cambridge-dictionary-bett/gkbkgngcpcfajdokakdbddplkaeaemgf
 
 ## Features
 1. Automatically focus on input when you press the key `a-z` or `A-Z`.
